@@ -1,0 +1,14 @@
+runs:
+  using: composite
+  steps:
+    - uses: actions/setup-java@f2beeb24e141e01a676f977032f5a29d81c9e27e # v5
+      with:
+        distribution: temurin
+        java-version: 25
+        check-latest: true
+
+    - shell: bash
+      run: java --version
+
+    - shell: bash
+      run: mvn --version
