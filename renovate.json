@@ -1,0 +1,20 @@
+{
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "extends": ["config:best-practices"],
+    "recreateWhen": "always",
+    "separateMinorPatch": true,
+    "separateMultipleMajor": true,
+    "commitMessageSuffix": "[skip ci]",
+    "packageRules": [
+      {
+        "automerge": true,
+        "matchUpdateTypes": ["patch"],
+        "groupName": "all-patch"
+      },
+      {
+        "matchUpdateTypes": ["minor"],
+        "groupName": "all-minor"
+      }
+    ]
+  }
+  
