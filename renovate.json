@@ -1,0 +1,21 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:best-practices",
+    ":separateMultipleMajorReleases",
+    ":separatePatchReleases"
+  ],
+  "ignorePresets": ["docker:pinDigests"],
+  "recreateWhen": "always",
+  "packageRules": [
+    {
+      "matchUpdateTypes": ["minor", "patch"],
+      "groupName": "all-minor-and-patch"
+    },
+    {
+      "automerge": true,
+      "matchUpdateTypes": ["patch"],
+      "groupName": "all-patch"
+    }
+  ]
+}
