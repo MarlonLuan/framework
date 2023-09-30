@@ -48,7 +48,7 @@
         <ml-framework.version>3.1.4-SNAPSHOT</ml-framework.version>
         <nexus-staging-maven-plugin.version>1.6.13</nexus-staging-maven-plugin.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <sortpom-maven-plugin.version>3.2.1</sortpom-maven-plugin.version>
+        <sortpom-maven-plugin.version>3.3.0</sortpom-maven-plugin.version>
         <spring-boot.version>3.1.4</spring-boot.version>
         <spring-javaformat-maven-plugin.version>0.0.39</spring-javaformat-maven-plugin.version>
         <springdoc-openapi.version>2.1.0</springdoc-openapi.version>
