@@ -40,7 +40,7 @@
         -->
     </distributionManagement>
     <properties>
-        <impsort-maven-plugin.version>1.10.0</impsort-maven-plugin.version>
+        <impsort-maven-plugin.version>1.11.0</impsort-maven-plugin.version>
         <java.version>21</java.version>
         <junit-jupiter-api.version>5.10.2</junit-jupiter-api.version>
         <maven.compiler.source>${java.version}</maven.compiler.source>
