@@ -42,7 +42,7 @@
     <properties>
         <impsort-maven-plugin.version>1.11.0</impsort-maven-plugin.version>
         <java.version>21</java.version>
-        <junit-jupiter.version>5.10.3</junit-jupiter.version>
+        <junit-jupiter.version>5.11.0</junit-jupiter.version>
         <maven.compiler.source>${java.version}</maven.compiler.source>
         <maven.compiler.target>${java.version}</maven.compiler.target>
         <ml-framework.version>3.3.3-SNAPSHOT</ml-framework.version>
