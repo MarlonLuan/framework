@@ -4,7 +4,7 @@
     <parent>
         <groupId>com.marlonluan</groupId>
         <artifactId>framework-dependencies</artifactId>
-        <version>3.4.4-SNAPSHOT</version>
+        <version>3.4.5-SNAPSHOT</version>
         <relativePath>dependencies</relativePath>
     </parent>
     <artifactId>framework-parent</artifactId>
