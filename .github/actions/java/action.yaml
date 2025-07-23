@@ -6,11 +6,6 @@ runs:
         distribution: temurin
         java-version: 21
         check-latest: true
-        server-id: central
-        server-username: ${{ secrets.MAVEN_USERNAME }}
-        server-password: ${{ secrets.MAVEN_CENTRAL_TOKEN }}
-        gpg-private-key: ${{ secrets.MAVEN_GPG_PRIVATE_KEY }}
-        gpg-passphrase: ${{ secrets.MAVEN_GPG_PASSPHRASE }}
 
     - shell: bash
       run: java --version
