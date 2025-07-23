@@ -9,7 +9,16 @@ jobs:
     steps:
       - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4
 
-      - uses: ./.github/actions/java
+      - uses: actions/setup-java@c5195efecf7bdfc987ee8bae7a71cb8b11521c00 # v4
+        with:
+          distribution: temurin
+          java-version: 21
+          check-latest: true
+          server-id: central
+          server-username: ${{ secrets.MAVEN_USERNAME }}
+          server-password: ${{ secrets.MAVEN_CENTRAL_TOKEN }}
+          gpg-private-key: ${{ secrets.MAVEN_GPG_PRIVATE_KEY }}
+          gpg-passphrase: ${{ secrets.MAVEN_GPG_PASSPHRASE }}
 
       - run: ./scripts/build.sh
 
