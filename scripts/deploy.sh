@@ -1,3 +1,3 @@
 #!/bin/bash
 
-./mvnw -P release --batch-mode deploy -DskipTests
+./mvnw --batch-mode deploy -DskipTests
