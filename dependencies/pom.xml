@@ -45,7 +45,7 @@
         <java.version>25</java.version>
         <lombok-mapstruct.version>0.2.0</lombok-mapstruct.version>
         <mapstruct.version>1.6.3</mapstruct.version>
-        <maven-compiler-plugin.version>3.15.0</maven-compiler-plugin.version>
+        <maven-compiler-plugin.version>3.16.0</maven-compiler-plugin.version>
         <maven.compiler.source>${java.version}</maven.compiler.source>
         <maven.compiler.target>${java.version}</maven.compiler.target>
         <ml-framework.version>4.1.0-SNAPSHOT</ml-framework.version>
@@ -182,7 +182,7 @@
                         <plugin>
                             <groupId>org.apache.maven.plugins</groupId>
                             <artifactId>maven-compiler-plugin</artifactId>
-                            <version>3.15.0</version>
+                            <version>3.16.0</version>
                         </plugin>
                         <plugin>
                             <groupId>org.apache.maven.plugins</groupId>
